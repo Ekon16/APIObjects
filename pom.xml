@@ -18,14 +18,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		
 	</properties>
-	<dependencies>ç
-
-		<dependency>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-compiler-plugin</artifactId>
-			<version>3.10.1</version>
-			<type>maven-plugin</type>
-		</dependency>
+	<dependencies>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -37,34 +30,29 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>6.1.6.Final</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>1.6.11</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
 			<version>8.0.0.Final</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.heroku.sdk/heroku-maven-plugin -->
-		<dependency>
-			<groupId>com.heroku.sdk</groupId>
-			<artifactId>heroku-maven-plugin</artifactId>
-			<version>3.0.6</version>
-		</dependency>
-
-
 
 	</dependencies>
 
@@ -81,6 +69,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.10.1</version>
 				<configuration>
+					<release>7</release>
 				</configuration>
 			</plugin>
 		</plugins>
