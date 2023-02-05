@@ -39,5 +39,4 @@ class ObjectModelTest {
 		assertEquals(15, object.getDamage());
 	}
 
-	// Similarmente, puede escribir pruebas para cada uno de los métodos get y set.
 }
