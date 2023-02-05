@@ -38,7 +38,7 @@ public class ObjectModel {
 	private String description;
 	
 	
-	public ObjectModel() {
+	public ObjectModel(int i, String s) {
 		
 	}
 	
@@ -135,9 +135,5 @@ public class ObjectModel {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
-	
-	
-	
 
 }
